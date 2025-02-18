@@ -22,10 +22,11 @@ parametres = deep_neural_network(x_train, y_train, x_test, y_test, hidden_layers
 
 On `ANN_Digits.py` : at the end of training, the final accuracy for both training and test sets is displayed.
 
-![alt text](image-1.png)
+![alt text](Images/graph.png)
 
-On `Test_ANN_Digits.py` : at the end of training, the final accuracy for both training and test sets is displayed.
+On `Test_ANN_Digits.py` : at the end of training, the data is displayed with the predicted labels.
 
+![alt text](Images/predictions.png)
 
 
 ## Potential Improvements
