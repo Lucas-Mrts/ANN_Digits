@@ -198,8 +198,8 @@ print("x_test" + str(x_test.shape))
 print("y_test" + str(y_test.shape))
 """
 
-m_train = 1000
-m_test = 200
+m_train = 2000
+m_test = 1000
 
 x_train = x_train[:, :m_train]
 x_test = x_test[:, :m_test] 

@@ -142,7 +142,7 @@ def main (X, y, hidden_layers, parametres):
     y_test_labels = np.argmax(y_test, axis=0)
     print("Final test accuracy:", accuracy_score(y_test_labels, y_pred))
 
-    display_images(X, y, y_pred, num_images=80, num_columns=10)
+    display_images(X, y, y_pred, num_images=40, num_columns=8)
 
 
 
@@ -177,7 +177,7 @@ y_train = one_hot_encode(y_train, 10)
 y_test = one_hot_encode(y_test, 10)
 
 
-m_train = 4000
+m_train = 2000
 m_test = 1000
 x_train = x_train[:, :m_train]
 x_test = x_test[:, :m_test]
