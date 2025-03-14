@@ -1,6 +1,6 @@
 # Deep Neural Network for MNIST Classification
 
-This project implements a deep neural network in Python for handwritten digit classification using the MNIST dataset. The implementation includes forward propagation, backpropagation, and weight optimization using gradient descent.
+This project implements a deep neural network in Python for handwritten digit classification using the MNIST dataset. The implementation includes forward propagation, backpropagation, and weight optimization using gradient descent. This is a personal project that I developed in my free time to explore and deepen my understanding of neural networks and machine learning.
 
 ## Usage
 
